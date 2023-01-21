@@ -19,6 +19,11 @@
 		09375049297A4D1A0039BE63 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375048297A4D1A0039BE63 /* UploadPostView.swift */; };
 		0937504B297A4D360039BE63 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937504A297A4D360039BE63 /* MainTabView.swift */; };
 		0937504D297A51220039BE63 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937504C297A51220039BE63 /* FeedCell.swift */; };
+		0937504F297BAFF80039BE63 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937504E297BAFF80039BE63 /* SearchBar.swift */; };
+		09375051297BB20E0039BE63 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375050297BB20E0039BE63 /* PostGridView.swift */; };
+		09375053297BB9600039BE63 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375052297BB9600039BE63 /* UserCell.swift */; };
+		09375055297BB96F0039BE63 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375054297BB96F0039BE63 /* UserListView.swift */; };
+		09375057297BC0760039BE63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375056297BC0760039BE63 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,11 @@
 		09375048297A4D1A0039BE63 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		0937504A297A4D360039BE63 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		0937504C297A51220039BE63 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		0937504E297BAFF80039BE63 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		09375050297BB20E0039BE63 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		09375052297BB9600039BE63 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		09375054297BB96F0039BE63 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		09375056297BC0760039BE63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +130,7 @@
 		09375033297A4C330039BE63 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				09375056297BC0760039BE63 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -177,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				09375040297A4CD40039BE63 /* SearchView.swift */,
+				0937504E297BAFF80039BE63 /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -199,6 +211,9 @@
 		0937503D297A4CAE0039BE63 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				09375050297BB20E0039BE63 /* PostGridView.swift */,
+				09375052297BB9600039BE63 /* UserCell.swift */,
+				09375054297BB96F0039BE63 /* UserListView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -274,14 +289,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				09375041297A4CD40039BE63 /* SearchView.swift in Sources */,
+				09375053297BB9600039BE63 /* UserCell.swift in Sources */,
 				0937504D297A51220039BE63 /* FeedCell.swift in Sources */,
 				09375025297A49BA0039BE63 /* ContentView.swift in Sources */,
 				0937504B297A4D360039BE63 /* MainTabView.swift in Sources */,
 				09375043297A4CE70039BE63 /* CommentsView.swift in Sources */,
 				09375023297A49BA0039BE63 /* InstagramSwiftUITutorialApp.swift in Sources */,
+				09375055297BB96F0039BE63 /* UserListView.swift in Sources */,
 				09375045297A4CF70039BE63 /* FeedView.swift in Sources */,
 				09375049297A4D1A0039BE63 /* UploadPostView.swift in Sources */,
+				09375057297BC0760039BE63 /* Extensions.swift in Sources */,
+				09375051297BB20E0039BE63 /* PostGridView.swift in Sources */,
 				09375047297A4D040039BE63 /* ProfileView.swift in Sources */,
+				0937504F297BAFF80039BE63 /* SearchBar.swift in Sources */,
 				0937503F297A4CC30039BE63 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
