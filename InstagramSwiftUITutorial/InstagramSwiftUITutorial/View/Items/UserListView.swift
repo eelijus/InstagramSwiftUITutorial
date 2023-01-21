@@ -9,11 +9,16 @@ import SwiftUI
 
 struct UserListView: View {
     var body: some View {
+        Text("sd")
         ScrollView {
             LazyVStack {
                 ForEach(0..<10) { _ in
-                    UserCell()
-                        .padding(.leading)
+                    NavigationLink(destination: {
+                        ProfileView()
+                    }, label: {
+                        UserCell()
+                            .padding(.leading)
+                    })
                 }
             }
         }

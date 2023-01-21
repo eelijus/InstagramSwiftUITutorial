@@ -24,6 +24,7 @@
 		09375053297BB9600039BE63 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375052297BB9600039BE63 /* UserCell.swift */; };
 		09375055297BB96F0039BE63 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375054297BB96F0039BE63 /* UserListView.swift */; };
 		09375057297BC0760039BE63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375056297BC0760039BE63 /* Extensions.swift */; };
+		09375059297BC7BC0039BE63 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375058297BC7BC0039BE63 /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		09375052297BB9600039BE63 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		09375054297BB96F0039BE63 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		09375056297BC0760039BE63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		09375058297BC7BC0039BE63 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				0937503E297A4CC30039BE63 /* NotificationsView.swift */,
+				09375058297BC7BC0039BE63 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				09375043297A4CE70039BE63 /* CommentsView.swift in Sources */,
 				09375023297A49BA0039BE63 /* InstagramSwiftUITutorialApp.swift in Sources */,
 				09375055297BB96F0039BE63 /* UserListView.swift in Sources */,
+				09375059297BC7BC0039BE63 /* NotificationCell.swift in Sources */,
 				09375045297A4CF70039BE63 /* FeedView.swift in Sources */,
 				09375049297A4D1A0039BE63 /* UploadPostView.swift in Sources */,
 				09375057297BC0760039BE63 /* Extensions.swift in Sources */,
@@ -444,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eelijus.roirequin.InstagramSwiftUITutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eelijus.roirequin.Ecolog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -473,7 +477,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eelijus.roirequin.InstagramSwiftUITutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eelijus.roirequin.Ecolog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
