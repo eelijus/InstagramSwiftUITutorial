@@ -25,6 +25,7 @@
 		09375055297BB96F0039BE63 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375054297BB96F0039BE63 /* UserListView.swift */; };
 		09375057297BC0760039BE63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375056297BC0760039BE63 /* Extensions.swift */; };
 		09375059297BC7BC0039BE63 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375058297BC7BC0039BE63 /* NotificationCell.swift */; };
+		0937505B297D43350039BE63 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937505A297D43350039BE63 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		09375054297BB96F0039BE63 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		09375056297BC0760039BE63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		09375058297BC7BC0039BE63 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		0937505A297D43350039BE63 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				09375046297A4D040039BE63 /* ProfileView.swift */,
+				0937505A297D43350039BE63 /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				09375053297BB9600039BE63 /* UserCell.swift in Sources */,
 				0937504D297A51220039BE63 /* FeedCell.swift in Sources */,
 				09375025297A49BA0039BE63 /* ContentView.swift in Sources */,
+				0937505B297D43350039BE63 /* ProfileHeaderView.swift in Sources */,
 				0937504B297A4D360039BE63 /* MainTabView.swift in Sources */,
 				09375043297A4CE70039BE63 /* CommentsView.swift in Sources */,
 				09375023297A49BA0039BE63 /* InstagramSwiftUITutorialApp.swift in Sources */,
