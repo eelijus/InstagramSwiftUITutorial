@@ -11,15 +11,9 @@ struct ProfileView: View {
     var body: some View {
         ScrollView {
             ProfileHeaderView()
-
-            ZStack {
-                PostGridView()
-            }
-
-            
+            PostGridView()
         }
     }
-    
 }
 
 

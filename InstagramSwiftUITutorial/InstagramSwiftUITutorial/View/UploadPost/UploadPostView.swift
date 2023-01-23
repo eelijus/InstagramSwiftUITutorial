@@ -14,26 +14,31 @@ struct UploadPostView: View {
     //SwiftUI에서의 이미지
     @State var postImage: Image?
     @State var captionText = ""
+    @State var imagePickerPresented = false
     
     var body: some View {
         VStack {
             if postImage == nil {
                 Button(action: {
-                    
+                    imagePickerPresented.toggle()
                 }, label: {
                     Image(systemName: "plus")
-                        .resizable()
+//                        .resizable()
                         //아래 modifier를 사용함으로써 색을 맘대로 바꿀 수 있음
                         .renderingMode(.template)
                         .scaledToFill()
-                        .frame(width: 180, height: 180)
+//                        .frame(width: 30, height: 10)
                         .clipped()
-                        .padding(.top, 556)
+                        .padding(.top, 56)
                         .foregroundColor(.black)
                 })
-            } else {
+                //onDismiss : dismiss 시 발생되는 이벤트
+                .sheet(isPresented: $imagePickerPresented, onDismiss: loadImage, content: { ImagePicker(image: $selectedImage)
+                    
+                })
+            } else if let image = postImage {
                 HStack(alignment: .top) {
-                    Image("adora_bodin")
+                    image
                         .resizable()
                         .scaledToFill()
                         .frame(width: 96, height: 96)
@@ -57,6 +62,15 @@ struct UploadPostView: View {
         }
         Spacer()
         
+    }
+}
+
+extension UploadPostView {
+    func loadImage() {
+        //selectedImage라는 변수를 생성해 selectedImage의 값이 있으면 할당, 아니면 return
+        guard let selectedImage = selectedImage else { return }
+        //할당됐다면 postImage(SwiftUI용 이미지)에 변환시켜 넣어준다
+        postImage = Image(uiImage: selectedImage)
     }
 }
 
