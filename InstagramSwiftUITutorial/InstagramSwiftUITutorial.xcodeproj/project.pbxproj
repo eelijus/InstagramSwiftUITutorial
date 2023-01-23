@@ -26,6 +26,8 @@
 		09375057297BC0760039BE63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375056297BC0760039BE63 /* Extensions.swift */; };
 		09375059297BC7BC0039BE63 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09375058297BC7BC0039BE63 /* NotificationCell.swift */; };
 		0937505B297D43350039BE63 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937505A297D43350039BE63 /* ProfileHeaderView.swift */; };
+		0937505D297D4EAD0039BE63 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937505C297D4EAD0039BE63 /* UserStatView.swift */; };
+		0937505F297D57390039BE63 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0937505E297D57390039BE63 /* ProfileActionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		09375056297BC0760039BE63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		09375058297BC7BC0039BE63 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 		0937505A297D43350039BE63 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		0937505C297D4EAD0039BE63 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		0937505E297D57390039BE63 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +172,8 @@
 			children = (
 				09375046297A4D040039BE63 /* ProfileView.swift */,
 				0937505A297D43350039BE63 /* ProfileHeaderView.swift */,
+				0937505C297D4EAD0039BE63 /* UserStatView.swift */,
+				0937505E297D57390039BE63 /* ProfileActionButtonView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -305,6 +311,8 @@
 				09375055297BB96F0039BE63 /* UserListView.swift in Sources */,
 				09375059297BC7BC0039BE63 /* NotificationCell.swift in Sources */,
 				09375045297A4CF70039BE63 /* FeedView.swift in Sources */,
+				0937505F297D57390039BE63 /* ProfileActionButtonView.swift in Sources */,
+				0937505D297D4EAD0039BE63 /* UserStatView.swift in Sources */,
 				09375049297A4D1A0039BE63 /* UploadPostView.swift in Sources */,
 				09375057297BC0760039BE63 /* Extensions.swift in Sources */,
 				09375051297BB20E0039BE63 /* PostGridView.swift in Sources */,

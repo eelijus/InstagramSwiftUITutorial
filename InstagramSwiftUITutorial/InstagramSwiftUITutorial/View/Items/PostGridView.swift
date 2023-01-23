@@ -15,19 +15,20 @@ struct PostGridView: View {
     
     var body: some View {
         //spacing은 그리드 간의 간격을 일정하게 해줌
-        LazyVGrid(columns: items, spacing: 2, content: {
-            ForEach(0..<10) { _ in
-                NavigationLink(destination: {
-                    FeedView()
-                }, label: {
-                    Image("adora_bodin")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: width, height: width)
-                        .clipped()
-                })
-            }
-        })
+            LazyVGrid(columns: items, spacing: 3, content: {
+                ForEach(0..<10) { _ in
+                    NavigationLink(destination: {
+                        FeedView()
+                    }, label: {
+                        Image("adora_bodin")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: width, height: width)
+                            .clipped()
+                    })
+                }
+            })
+        
     }
 }
 
